@@ -39,7 +39,7 @@ import eyed3
 
 # file extensions that can be handled and converted
 ConvertExtensions = ['.mp4', '.m4a', '.ogg', '.flac']
-HandledExtensions = ConvertExtensions + '.mp3'
+HandledExtensions = ConvertExtensions.append('.mp3')
 
 # substutitions to be performed within directory/file names
 SubstituteList = [
