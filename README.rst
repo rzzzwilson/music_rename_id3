@@ -52,3 +52,6 @@ The program is used so:
 
 The **-i** option is useful once you have the file renaming part working
 satisfactorily and you are fiddling with the ID3 tags.
+
+Note that the rename/convert code checks and skips the rename/conversion if the
+output file already exists.  This makes it easy to restart a processing run.
